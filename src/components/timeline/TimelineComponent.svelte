@@ -1,6 +1,6 @@
 <script>
-	import JobUpdate from './JobUpdate.svelte';
 	import Story from './Story.svelte';
+	import JobUpdate from './JobUpdate.svelte';
 	import { userData } from '../../data/user_data';
 	let timeline = userData.timeline;
 </script>
