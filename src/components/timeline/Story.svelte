@@ -8,7 +8,7 @@
 	<div
 		class="absolute w-[30%] flex flex-col items-end text-right p-4 px-6 top-[50%] move-up right-[100%]"
 	>
-		<p class="text-xs text-[#7A9299]"><span>{story.date}</span></p>
+		<p class="text-xs font-[300] text-[#7A9299]"><span>{story.date}</span></p>
 	</div>
 	<img
 		class="relative move-left top-0 left-0"
