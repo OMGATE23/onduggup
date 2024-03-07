@@ -24,7 +24,7 @@
 	>
 		<p class="text-xl font-[600]">{job_update.title}</p>
 		<p class="flex gap-1 text-xs font-[300] text-[#7A9299]">
-			{#each job_update.job_style as job_style, index}
+			{#each job_update.job_style as job_style, index (job_style)}
 				<p>{job_style}</p>
 				{#if index !== job_update.job_style.length - 1}
 					<span class="text-[0.5rem]">•</span>
