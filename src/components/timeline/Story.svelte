@@ -4,7 +4,7 @@
 	let content = story.content;
 </script>
 
-<div class="relative w-[50%] mx-auto">
+<div class="relative w-[70%] md:w-[50%]">
 	<div
 		class="absolute w-[30%] flex flex-col items-end text-right p-4 px-6 top-[50%] move-up right-[100%]"
 	>

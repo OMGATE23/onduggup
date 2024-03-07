@@ -5,7 +5,7 @@
 	let timeline = userData.timeline;
 </script>
 
-<div>
+<div class=" w-full flex flex-col items-end md:items-center pr-8">
 	{#each timeline as event, index (index)}
 		{#if event.type === 'stories'}
 			<Story story={event} />

@@ -8,10 +8,12 @@
 </script>
 
 <header
-	class="flex items-center justify-between py-6 px-4 mx-8 border-b-[2px] border-neutral-400 border-dotted"
+	class="flex flex-col md:flex-row items-center justify-between py-2 md:py-6 px-4 mx-8 border-b-[2px] border-neutral-400 border-dotted"
 >
-	<a aria-label="duggup-logo" href="/"><img alt="logo" src="/assets/logo.svg" /></a>
-	<div class="flex items-center gap-12">
+	<a class="mt-4 md:mt-0" aria-label="duggup-logo" href="/"
+		><img alt="logo" src="/assets/logo.svg" /></a
+	>
+	<div class="flex flex-col md:flex-row items-center gap-2 mt-4 md:gap-12">
 		<ul class="hidden md:flex items-center font-[300] justify-evenly gap-12 text-neutral-800">
 			<li>
 				<a class="flex items-center gap-2" href="/">
