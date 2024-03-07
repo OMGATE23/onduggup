@@ -29,7 +29,7 @@
 		</ul>
 
 		<a
-			class="flex items-center gap-2 outline outline-1 px-6 py-2 rounded-lg border-b-4 border-neutral-700"
+			class="flex items-center gap-2 outline outline-[0.5px] px-6 py-2 rounded-lg border-b-4 border-neutral-700"
 			href="/"
 		>
 			<img alt="home" src="/assets/post.svg" />
