@@ -7,7 +7,7 @@
 	}
 </script>
 
-<div class="flex w-[80%] mx-auto my-12 gap-16">
+<div class="flex flex-col md:flex-row w-[80%] mx-auto my-12 gap-16">
 	<div class="flex flex-col gap-4 items-center">
 		<img
 			width="120"
@@ -19,11 +19,13 @@
 	</div>
 	<div class="flex flex-col gap-8">
 		<div class="flex justify-between gap-20">
-			<p class="w-[75%] text-[#141618] leading-7 font-[300] space">{userData.description}</p>
+			<p class="w-[75%] text-justify md:text-left text-[#141618] leading-7 font-[300] space">
+				{userData.description}
+			</p>
 			<div class="flex flex-col items-end gap-1">
 				<img class="w-10 rounded-full" alt={userData.company} src={userData.company_img} />
 				<p class="font-[600]">{userData.company}</p>
-				<p class="text-[#7A9299] text-xs font-[300]">{userData.position}</p>
+				<p class="text-[#7A9299] text-right text-xs font-[300]">{userData.position}</p>
 			</div>
 		</div>
 		<div class="flex justify-between">
