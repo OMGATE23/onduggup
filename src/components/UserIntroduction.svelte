@@ -28,7 +28,7 @@
 		</div>
 		<div class="flex justify-between">
 			<button
-				class="flex items-center font-[300] w-[108px] justify-center gap-2 outline outline-[0.5px] text-[#4D4D4D] px-5 py-2 rounded-[4px] border-b-4 border-[#4D4D4D]"
+				class={`flex items-center font-[300] w-[108px] justify-center gap-2 outline outline-[0.5px] text-[#4D4D4D] px-5 py-2 rounded-[4px] border-b-4 border-[#4D4D4D] hover:bg-[#0066FF] hover:border-blue-800 hover:outline-[#0066FF] hover:border-b-2 hover:text-white transition-all duration-150 ${isFollowed ? 'border-b-2' : 'border-b-4'}`}
 				on:click={toggleFollow}
 			>
 				{#if isFollowed}

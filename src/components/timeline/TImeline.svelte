@@ -6,7 +6,7 @@
 </script>
 
 <div>
-	{#each timeline as event (event.title)}
+	{#each timeline as event, index (index)}
 		{#if event.type === 'stories'}
 			<Story story={event} />
 		{/if}
