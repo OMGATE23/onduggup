@@ -23,7 +23,7 @@ export const userData = {
 			]
 		},
 		{
-			type: 'job_status',
+			type: 'job_update',
 			date: 'Nov 2023',
 			company: 'Duggup',
 			company_img: '/assets/duggup.png',
@@ -46,7 +46,7 @@ export const userData = {
 			]
 		},
 		{
-			type: 'job_status',
+			type: 'job_update',
 			date: 'Sep 2022',
 			company: 'Betterup',
 			company_img: '/assets/betterup.jpeg',
