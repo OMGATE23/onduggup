@@ -1,6 +1,10 @@
 <script>
 	import { userData } from '../data/user_data';
-	console.log(userData);
+	let isFollowed = false;
+
+	function toggleFollow() {
+		isFollowed = !isFollowed;
+	}
 </script>
 
 <div class="flex w-[80%] mx-auto my-12 gap-16">
@@ -24,10 +28,14 @@
 		</div>
 		<div class="flex justify-between">
 			<button
-				class="flex items-center gap-2 outline outline-[0.5px] text-[#4D4D4D] px-5 py-1 rounded-[4px] border-b-4 border-[#4D4D4D]"
-				href="/"
+				class="flex items-center w-[108px] justify-center gap-2 outline outline-[0.5px] text-[#4D4D4D] px-5 py-2 rounded-[4px] border-b-4 border-[#4D4D4D]"
+				on:click={toggleFollow}
 			>
-				Followed
+				{#if isFollowed}
+					Followed
+				{:else}
+					Follow
+				{/if}
 			</button>
 			<div class="flex items-center gap-4">
 				<a class="flex items-center gap-2" href="/"
