@@ -18,17 +18,17 @@
 		<p class="text-2xl text-center text-[#4B5C6D] font-[600]">{userData.name}</p>
 	</div>
 	<div class="flex flex-col gap-8">
-		<div class="flex justify-between gap-20">
+		<div class="flex flex-col-reverse md:flex-row items-center justify-between gap-20">
 			<p class="w-[75%] text-justify md:text-left text-[#141618] leading-7 font-[300] space">
 				{userData.description}
 			</p>
-			<div class="flex flex-col items-end gap-1">
+			<div class="flex flex-col items-center md:items-end gap-1">
 				<img class="w-10 rounded-full" alt={userData.company} src={userData.company_img} />
 				<p class="font-[600]">{userData.company}</p>
 				<p class="text-[#7A9299] text-right text-xs font-[300]">{userData.position}</p>
 			</div>
 		</div>
-		<div class="flex justify-between">
+		<div class="flex justify-between flex-col items-center gap-4 md:flex-row">
 			<button
 				class={`flex items-center font-[300] w-[108px] justify-center gap-2 outline outline-[0.5px] text-[#4D4D4D] px-5 py-2 rounded-[4px] border-b-4 border-[#4D4D4D] hover:bg-[#0066FF] hover:border-blue-800 hover:outline-[#0066FF] hover:border-b-2 hover:text-white transition-all duration-150 ${isFollowed ? 'border-b-2' : 'border-b-4'}`}
 				on:click={toggleFollow}
