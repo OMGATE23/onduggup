@@ -18,7 +18,7 @@
 	<div
 		class="min-w-[80%] absolute left-12 top-[50%] move-up flex items-center gap-8 p-2 rounded-lg h-full"
 	>
-		{#each content as story}
+		{#each content as story (story.title)}
 			<div
 				class="bg-white w-[50%] outline outline-[0.5px] outline-[#D0D5DD] h-[80%] rounded-lg overflow-hidden"
 			>
