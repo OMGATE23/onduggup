@@ -1,3 +1,7 @@
+<script>
+	import { userData } from '../data/user_data';
+</script>
+
 <header
 	class="flex items-center justify-between py-6 px-4 mx-8 border-b-[2px] border-neutral-400 border-dotted"
 >
@@ -34,9 +38,9 @@
 
 		<button class="flex items-center gap-2">
 			<span class="outline overflow-hidden outline-1 rounded-full outline-neutral-700">
-				<img class=" w-10" alt="profile pricture" src="/assets/profile-pic-duggup.jpeg" />
+				<img class=" w-10" alt="profile pricture" src={userData.profile_img} />
 			</span>
-			<p>Krishna Kiran</p>
+			<p>{userData.name}</p>
 			<img alt="chevron down" src="/assets/chevron-down.svg" />
 		</button>
 	</div>
