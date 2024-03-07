@@ -26,7 +26,7 @@ export const userData = {
 			type: 'job_status',
 			date: 'Nov 2023',
 			company: 'Duggup',
-			company_img: 'duggup.png',
+			company_img: '/assets/duggup.png',
 			location: 'San Francisco Bay Area',
 			title: 'Co-Founder and CEO',
 			job_style: ['Full-time', 'Remote']
@@ -41,7 +41,7 @@ export const userData = {
 				},
 				{
 					title: 'Your biggest regrets at 80 will be acts of omission.',
-					thumbnail: '/assets/content-img-4.jpeg'
+					thumbnail: '/assets/content-img-4.png'
 				}
 			]
 		},
@@ -49,7 +49,7 @@ export const userData = {
 			type: 'job_status',
 			date: 'Sep 2022',
 			company: 'Betterup',
-			company_img: 'betterup.jpeg',
+			company_img: '/assets/betterup.jpeg',
 			location: 'San Francisco Bay Area',
 			title: 'VP Engineering',
 			job_style: ['Full-time']
